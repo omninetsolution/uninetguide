@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { TFN_DISPLAY, TFN_LINK } from "@/lib/constants";
 
 const reviews = [
-  { name: "Sarah M.", text: "NetGuidePro helped me understand my connectivity options when I was confused about different service types. Their independent guidance was clear and straightforward.", rating: 5 },
+  { name: "Sarah M.", text: "Uninetguide helped me understand my connectivity options when I was confused about different service types. Their independent guidance was clear and straightforward.", rating: 5 },
   { name: "David R.", text: "I appreciated that they were upfront about being a third-party service. The guidance I received about my Wi-Fi setup was practical and easy to follow.", rating: 5 },
   { name: "Jennifer L.", text: "Great experience with their support team. They walked me through understanding my cable service options without any pushy sales tactics.", rating: 5 },
   { name: "Michael T.", text: "The team was transparent about their role as an independent assistance provider. They helped me understand troubleshooting steps I hadn't considered before.", rating: 5 },

@@ -10,14 +10,14 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm font-display">N</span>
+                <span className="text-primary-foreground font-bold text-sm font-display">U</span>
               </div>
               <span className="text-xl font-bold font-display text-foreground">
-                Net<span className="text-primary">Guide</span>Pro
+                Uni<span className="text-primary">net</span>guide
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              NetGuidePro is an independent third-party service assistance startup, launched in 2026. We provide general guidance related to internet, broadband, Wi-Fi, and cable TV services.
+              Uninetguide is an independent third-party service assistance startup, launched in 2026. We provide general guidance related to internet, broadband, Wi-Fi, and cable TV services.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-                <span>NetGuidePro LLC, United States</span>
+                <span>Uninetguide LLC, United States</span>
               </li>
             </ul>
           </div>
@@ -79,11 +79,11 @@ const Footer = () => {
         <div className="border-t border-border mt-10 pt-8">
           <div className="bg-secondary/50 rounded-lg p-4 mb-6">
             <p className="text-xs text-muted-foreground leading-relaxed text-center">
-              <strong>Disclaimer:</strong> NetGuidePro is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, authorized by, or sponsored by any cable, internet, or streaming service provider. All trademarks, service marks, and brand names referenced on this website belong to their respective owners and are used strictly for informational purposes only. Our service fees are separate from any provider charges.
+              <strong>Disclaimer:</strong> Uninetguide is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, authorized by, or sponsored by any cable, internet, or streaming service provider. All trademarks, service marks, and brand names referenced on this website belong to their respective owners and are used strictly for informational purposes only. Our service fees are separate from any provider charges.
             </p>
           </div>
           <p className="text-xs text-muted-foreground text-center">
-            © {new Date().getFullYear()} NetGuidePro. All rights reserved.
+            © {new Date().getFullYear()} Uninetguide. All rights reserved.
           </p>
         </div>
       </div>

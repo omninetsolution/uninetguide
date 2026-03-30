@@ -23,7 +23,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="bg-secondary/50 rounded-lg p-4 mb-12">
             <p className="text-xs text-muted-foreground text-center">
-              <strong>Disclosure:</strong> NetGuidePro is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider.
+              <strong>Disclosure:</strong> Uninetguide is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider.
             </p>
           </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center"><MapPin className="w-5 h-5 text-primary" /></div>
                     <div>
                       <p className="text-sm text-muted-foreground">Business</p>
-                      <p className="font-semibold">NetGuidePro LLC, United States</p>
+                      <p className="font-semibold">Uninetguide LLC, United States</p>
                     </div>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ const Contact = () => {
 
               <div className="glass-card p-4">
                 <p className="text-xs text-muted-foreground">
-                  <strong>Disclaimer:</strong> NetGuidePro is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, broadband, or cable TV service provider.
+                  <strong>Disclaimer:</strong> Uninetguide is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, broadband, or cable TV service provider.
                 </p>
               </div>
             </div>

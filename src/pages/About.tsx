@@ -11,14 +11,14 @@ const About = () => {
         <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
           <div className="bg-secondary/50 rounded-lg p-4 mb-12">
             <p className="text-xs text-muted-foreground text-center">
-              <strong>Disclosure:</strong> NetGuidePro is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider.
+              <strong>Disclosure:</strong> Uninetguide is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider.
             </p>
           </div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-            <h1 className="text-4xl lg:text-5xl font-bold font-display mb-6 text-center">About <span className="gradient-text">NetGuidePro</span></h1>
+            <h1 className="text-4xl lg:text-5xl font-bold font-display mb-6 text-center">About <span className="gradient-text">Uninetguide</span></h1>
             <p className="text-lg text-muted-foreground text-center max-w-3xl mx-auto mb-16 leading-relaxed">
-              NetGuidePro is an independent third-party service assistance provider offering general guidance related to internet, broadband, Wi-Fi, and cable TV services.
+              Uninetguide is an independent third-party service assistance provider offering general guidance related to internet, broadband, Wi-Fi, and cable TV services.
             </p>
           </motion.div>
 

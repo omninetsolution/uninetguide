@@ -8,7 +8,7 @@ const RefundPolicy = () => {
         <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
           <div className="bg-secondary/50 rounded-lg p-4 mb-12">
             <p className="text-xs text-muted-foreground text-center">
-              <strong>Disclosure:</strong> NetGuidePro is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider.
+              <strong>Disclosure:</strong> Uninetguide is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ const RefundPolicy = () => {
             </section>
             <section>
               <h2 className="text-xl font-bold font-display mb-3">Important Note</h2>
-              <p className="text-muted-foreground leading-relaxed">NetGuidePro's service fees are entirely separate from any charges by your internet, cable, or streaming service provider. Refunds processed by NetGuidePro apply only to our independent service fees and do not affect your provider billing in any way.</p>
+              <p className="text-muted-foreground leading-relaxed">Uninetguide's service fees are entirely separate from any charges by your internet, cable, or streaming service provider. Refunds processed by Uninetguide apply only to our independent service fees and do not affect your provider billing in any way.</p>
             </section>
           </div>
         </div>

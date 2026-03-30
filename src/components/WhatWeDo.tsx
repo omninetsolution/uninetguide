@@ -36,7 +36,7 @@ const WhatWeDo = () => {
             What We <span className="gradient-text">Do</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            At NetGuidePro, our role is limited to independent guidance and assistance only. Here's how we help:
+            At Uninetguide, our role is limited to independent guidance and assistance only. Here's how we help:
           </p>
         </motion.div>
 

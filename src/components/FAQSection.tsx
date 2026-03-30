@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 import { TFN_DISPLAY, TFN_LINK, SUPPORT_EMAIL } from "@/lib/constants";
 
 const faqs = [
-  { q: "Are you an official cable or internet service provider?", a: "No. NetGuidePro is an independent third-party assistance platform launched in 2026. We are not an Internet Service Provider (ISP) and do not deliver internet, cable, or streaming services directly to consumers." },
+  { q: "Are you an official cable or internet service provider?", a: "No. Uninetguide is an independent third-party assistance platform launched in 2026. We are not an Internet Service Provider (ISP) and do not deliver internet, cable, or streaming services directly to consumers." },
   { q: "Do you sell internet, cable, or streaming plans?", a: "No. We do not sell, resell, or distribute any internet, cable TV, or streaming subscriptions. Our role is limited to providing independent guidance and informational assistance only." },
-  { q: "Do you charge for your services?", a: "Yes. NetGuidePro charges a separate service fee for the independent guidance and assistance we provide. This fee is entirely separate from any charges billed by your internet or cable service provider." },
+  { q: "Do you charge for your services?", a: "Yes. Uninetguide charges a separate service fee for the independent guidance and assistance we provide. This fee is entirely separate from any charges billed by your internet or cable service provider." },
   { q: "Will I still be billed by my service provider?", a: "Yes. Your billing arrangement with your internet, cable, or streaming service provider remains completely unchanged. Our services and fees are independent and do not affect your provider's billing in any way." },
   { q: "Do you need my account passwords or sensitive information?", a: "No. We never request your provider account passwords, social security number, or any other sensitive personal credentials. We may only ask for general information necessary to guide you through your inquiry." },
   { q: "Which providers do you support?", a: "We may reference multiple internet, cable, and streaming service providers for general informational and guidance purposes only. Such references do not imply any affiliation, authorization, or endorsement by those providers." },
   { q: "Are your services refundable?", a: "Yes. Refund requests may be submitted within 7 to 15 days of service purchase, depending on the type of assistance provided. Eligibility is determined by whether assistance has already been delivered and the nature of the service. Please review our Refund Policy page for full eligibility details." },
-  { q: "How do I reach your support team?", a: `You can reach our independent support team by calling ${TFN_DISPLAY} or by emailing ${SUPPORT_EMAIL}. Our greeting confirms: 'Thank you for calling NetGuidePro, an independent service assistance platform.'` },
+  { q: "How do I reach your support team?", a: `You can reach our independent support team by calling ${TFN_DISPLAY} or by emailing ${SUPPORT_EMAIL}. Our greeting confirms: 'Thank you for calling Uninetguide, an independent service assistance platform.'` },
 ];
 
 const FAQSection = ({ showAll = false }: { showAll?: boolean }) => {

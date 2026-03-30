@@ -21,10 +21,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link to="/" className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm font-display">N</span>
+              <span className="text-primary-foreground font-bold text-sm font-display">U</span>
             </div>
             <span className="text-xl font-bold font-display text-foreground">
-              Net<span className="text-primary">Guide</span>Pro
+              Uni<span className="text-primary">net</span>guide
             </span>
           </Link>
 
