@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-                <span>Uninetguide LLC, United States</span>
+                <span>101 N Colorado St, Chandler, AZ 85244</span>
               </li>
             </ul>
           </div>
@@ -82,9 +82,10 @@ const Footer = () => {
               <strong>Disclaimer:</strong> Uninetguide is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, authorized by, or sponsored by any cable, internet, or streaming service provider. All trademarks, service marks, and brand names referenced on this website belong to their respective owners and are used strictly for informational purposes only. Our service fees are separate from any provider charges.
             </p>
           </div>
-          <p className="text-xs text-muted-foreground text-center">
-            © {new Date().getFullYear()} Uninetguide. All rights reserved.
-          </p>
+          <div className="text-xs text-muted-foreground text-center space-y-1">
+            <p>© {new Date().getFullYear()} <strong>Total Tech Guard LLC</strong>. All rights reserved.</p>
+            <p>Owned by <strong>John William Nathaniel</strong> &mdash; 101 N Colorado St, Chandler, AZ 85244</p>
+          </div>
         </div>
       </div>
     </footer>
