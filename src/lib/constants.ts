@@ -1,7 +1,6 @@
 // ─── TFN (Toll-Free Number) ───────────────────────────────────────────────────
-// Replace the values below with the real TFN when provided.
-export const TFN_DISPLAY = "000000000";
-export const TFN_LINK = "tel:000000000";
+export const TFN_DISPLAY = "(888) 559-3071";
+export const TFN_LINK = "tel:+18885593071";
 
 // ─── Contact ──────────────────────────────────────────────────────────────────
 export const SUPPORT_EMAIL = "support@uninetguide.com";

@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Uninet Guide
 
-TODO: Document your project here
+A modern web application built with React, TypeScript, and Tailwind CSS.
