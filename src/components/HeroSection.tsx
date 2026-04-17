@@ -5,9 +5,9 @@ import heroBg from "@/assets/hero-bg.jpg";
 import { TFN_DISPLAY, TFN_LINK } from "@/lib/constants";
 
 const featureCards = [
-  { icon: Wifi, label: "Wi-Fi Issues", desc: "Connectivity guidance" },
-  { icon: Gauge, label: "Speed Support", desc: "Performance help" },
-  { icon: Headphones, label: "24/7 Assistance", desc: "Always available" },
+  { icon: Wifi, label: "Provider Guidance", desc: "Xfinity, Spectrum & more" },
+  { icon: Gauge, label: "Plan Comparison", desc: "Find your perfect fit" },
+  { icon: Headphones, label: "24/7 Support", desc: "Always here for you" },
 ];
 
 const HeroSection = () => {
@@ -31,7 +31,7 @@ const HeroSection = () => {
             >
               <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-1.5 mb-6">
                 <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                <span className="text-xs font-medium text-primary">Independent Third-Party Service Assistance</span>
+                <span className="text-xs font-medium text-primary">Trusted Cable & Internet Service Resource</span>
               </div>
             </motion.div>
 
@@ -41,8 +41,8 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              Independent Internet & Cable{" "}
-              <span className="gradient-text">Service Assistance</span>
+              Your Trusted Source for Cable &{" "}
+              <span className="gradient-text">Internet Services</span>
             </motion.h1>
 
             <motion.p
@@ -51,7 +51,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Get general guidance and informational support related to internet, broadband, Wi-Fi, and cable TV services from an independent third-party assistance provider.
+              Navigate Xfinity, Spectrum, HughesNet, AT&T, and DirecTV with confidence. We provide expert guidance to help homes and businesses find the right connectivity solution — fast, clear, and hassle-free.
             </motion.p>
 
             <motion.p
@@ -60,7 +60,7 @@ const HeroSection = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              Not an ISP • No brand affiliation • Separate service fees apply
+              Independent guidance service • Not affiliated with any provider • Service fees apply
             </motion.p>
 
             <motion.div
@@ -84,9 +84,9 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
             >
               {[
-                { value: "10K+", label: "Users Assisted" },
+                { value: "10K+", label: "Customers Helped" },
                 { value: "~5min", label: "Avg. Response" },
-                { value: "99%", label: "Satisfaction" },
+                { value: "5+", label: "Providers Covered" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <div className="text-2xl md:text-3xl font-bold font-display text-primary">{stat.value}</div>

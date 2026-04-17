@@ -6,18 +6,18 @@ import { TFN_DISPLAY, TFN_LINK } from "@/lib/constants";
 const services = [
   {
     icon: BookOpen,
-    title: "General Guidance",
-    description: "We help users understand internet and broadband service options through informational support and independent guidance.",
+    title: "Provider Navigation",
+    description: "Not sure which plan or provider fits your needs? We help you compare Xfinity, Spectrum, AT&T, HughesNet, and DirecTV offerings so you can make a confident, informed decision for your home or business.",
   },
   {
     icon: Wifi,
-    title: "Connectivity Support",
-    description: "Get practical guidance on common connectivity issues. We assist you in understanding troubleshooting steps and service processes.",
+    title: "Connectivity Troubleshooting",
+    description: "Dealing with slow speeds, outages, or equipment confusion? Our team walks you through troubleshooting steps and service processes across all major internet and cable providers — clearly and efficiently.",
   },
   {
     icon: Users,
-    title: "Independent Assistance",
-    description: "Receive general informational support related to cable TV, streaming, and internet services from a fully independent team.",
+    title: "Plan & Billing Clarity",
+    description: "Confused by service fees, contract terms, or upgrade options? We decode your provider's plans — whether it's Xfinity, Spectrum, DirecTV, or HughesNet — and help you understand exactly what you're paying for.",
   },
 ];
 
@@ -33,10 +33,10 @@ const WhatWeDo = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl lg:text-5xl font-bold font-display mb-4">
-            What We <span className="gradient-text">Do</span>
+            How We <span className="gradient-text">Help</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            At Uninetguide, our role is limited to independent guidance and assistance only. Here's how we help:
+            From Xfinity and Spectrum to HughesNet, AT&T, and DirecTV — we provide reliable, independent guidance for homes and businesses across all major providers.
           </p>
         </motion.div>
 

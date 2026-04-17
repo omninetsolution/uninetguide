@@ -2,13 +2,11 @@ import { motion } from "framer-motion";
 import { Shield, Users, RefreshCw, Clock, Award, Lock, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TFN_DISPLAY, TFN_LINK } from "@/lib/constants";
-import setupImg from "@/assets/setup-guide.jpg";
-import expertImg from "@/assets/expert-support.jpg";
 
 const trustCards = [
-  { icon: Lock, title: "Data Privacy First", desc: "We never request provider passwords or sensitive credentials. Your data stays secure." },
-  { icon: Award, title: "Trained Professionals", desc: "Our team provides informed, independent guidance backed by industry knowledge." },
-  { icon: RefreshCw, title: "7–15 Day Refund Window", desc: "Eligible refund requests can be submitted within 7 to 15 days of service purchase." },
+  { icon: Lock, title: "Data Privacy First", desc: "We never ask for your provider password or account credentials. Your personal information stays yours — always." },
+  { icon: Award, title: "Knowledgeable Team", desc: "Our specialists are well-versed across Xfinity, Spectrum, HughesNet, AT&T, and DirecTV to give you accurate, informed guidance every time." },
+  { icon: RefreshCw, title: "7–15 Day Refund Window", desc: "Not satisfied with our guidance service? Eligible refund requests can be submitted within 7 to 15 days of your service purchase." },
 ];
 
 const stats = [
@@ -61,10 +59,10 @@ const TrustSection = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl lg:text-5xl font-bold font-display mb-4">
-              Transparency & <span className="gradient-text">Trust</span>
+              Why Customers <span className="gradient-text">Trust Us</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              We believe in complete honesty and transparency in everything we do.
+              We're your trusted source for cable and internet guidance — independent, honest, and focused entirely on your needs.
             </p>
           </motion.div>
 
@@ -99,78 +97,6 @@ const TrustSection = () => {
                 <span className="font-bold">{TFN_DISPLAY}</span>
               </a>
             </Button>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Setup & Installation Guidance */}
-      <section className="py-20 lg:py-32">
-        <div className="container mx-auto px-4 lg:px-8">
-          <motion.div
-            className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16"
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
-            <div className="w-full lg:w-1/2">
-              <div className="rounded-2xl overflow-hidden glow-border">
-                <img src={setupImg} alt="Router and modem setup" width={1280} height={720} loading="lazy" className="w-full h-auto object-cover" />
-              </div>
-            </div>
-            <div className="w-full lg:w-1/2 space-y-4">
-              <h2 className="text-3xl lg:text-4xl font-bold font-display">Setup & Installation <span className="gradient-text">Guidance</span></h2>
-              <p className="text-muted-foreground leading-relaxed text-lg">
-                Setting up a new router, modem, or Wi-Fi extender can feel overwhelming. Our independent team provides step-by-step informational guidance to help you understand the setup process — without any brand affiliation or provider authorization.
-              </p>
-              <p className="text-xs text-muted-foreground/60">
-                We do not perform installations or provide official technical support.
-              </p>
-              <div className="pt-2">
-                <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold rounded-full px-8 h-12">
-                  <a href={TFN_LINK}>
-                    <Phone className="w-4 h-4 mr-2" />
-                    <span className="font-bold">{TFN_DISPLAY}</span>
-                  </a>
-                </Button>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Expert Support */}
-      <section className="py-20 lg:py-32 bg-card/30">
-        <div className="container mx-auto px-4 lg:px-8">
-          <motion.div
-            className="flex flex-col lg:flex-row-reverse items-center gap-10 lg:gap-16"
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
-            <div className="w-full lg:w-1/2">
-              <div className="rounded-2xl overflow-hidden glow-border">
-                <img src={expertImg} alt="Expert support representative" width={1280} height={720} loading="lazy" className="w-full h-auto object-cover" />
-              </div>
-            </div>
-            <div className="w-full lg:w-1/2 space-y-4">
-              <h2 className="text-3xl lg:text-4xl font-bold font-display">Independent <span className="gradient-text">Expert Guidance</span></h2>
-              <p className="text-muted-foreground leading-relaxed text-lg">
-                Our trained team members are available to assist you with general questions about internet speeds, Wi-Fi optimization, cable TV setup, and streaming connectivity. All guidance is provided independently and is not affiliated with any specific provider.
-              </p>
-              <p className="text-xs text-muted-foreground/60">
-                Our assistance is informational only. Service fees are separate from provider charges.
-              </p>
-              <div className="pt-2">
-                <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold rounded-full px-8 h-12">
-                  <a href={TFN_LINK}>
-                    <Phone className="w-4 h-4 mr-2" />
-                    <span className="font-bold">{TFN_DISPLAY}</span>
-                  </a>
-                </Button>
-              </div>
-            </div>
           </motion.div>
         </div>
       </section>

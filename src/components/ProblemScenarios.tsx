@@ -8,21 +8,21 @@ import entertainmentImg from "@/assets/entertainment.jpg";
 
 const scenarios = [
   {
-    title: "Experiencing Connectivity Disruptions?",
-    description: "Internet outages and Wi-Fi inconsistencies can disrupt your daily routine. Our independent assistance team helps guide you through common troubleshooting steps and provides informational support to help you understand your connectivity concerns.",
+    title: "Struggling with Your Xfinity or Spectrum Connection?",
+    description: "Frequent outages, sluggish speeds, and equipment confusion with Xfinity, Spectrum, or another provider can be incredibly frustrating. Our team walks you through the right steps — from diagnosing the issue to understanding your service options — so you can get back online fast.",
     image: connectivityImg,
     alt: "Person experiencing connectivity issues at home",
   },
   {
-    title: "Your Work Depends on a Stable Connection?",
-    description: "Remote work, video conferences, and cloud-based tasks require a reliable internet connection. We offer independent guidance to help you understand service options and navigate connectivity-related concerns without any brand affiliation.",
+    title: "Remote Work Demands a Reliable Connection",
+    description: "A dropped call mid-meeting or a stalled upload at a critical moment can cost you clients and credibility. We help you understand your AT&T, Xfinity, or HughesNet service tiers, equipment requirements, and upgrade paths so your work-from-home setup runs without interruption.",
     image: workImg,
     alt: "Professional working from home with multiple monitors",
     reverse: true,
   },
   {
-    title: "Seamless Entertainment Starts with Understanding",
-    description: "Streaming, gaming, and smart home connectivity all depend on your internet service. We provide general informational support and independent guidance to help you navigate cable TV and streaming-related questions.",
+    title: "Get the Most Out of DirecTV, Streaming & Cable",
+    description: "From DirecTV satellite setup to optimizing your Spectrum cable package and streaming service integration, we cover it all. Whether you're battling buffering issues, channel access problems, or smart home connectivity, our experts guide you to the right solution.",
     image: entertainmentImg,
     alt: "Family enjoying entertainment on smart TV",
   },

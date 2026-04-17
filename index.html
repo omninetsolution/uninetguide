@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ─── Security Meta Tags ──────────────────────────────────────────────── -->
+    <!-- Prevent clickjacking via iframe embedding (meta fallback; _headers is primary) -->
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <!-- Stop MIME-type sniffing -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <!-- Referrer policy -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <!-- Restrict browser features -->
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
+    <!-- Force HTTPS upgrade for any mixed-content resources -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <!-- ─────────────────────────────────────────────────────────────────────── -->
+
     <title>Uninetguide</title>
     <meta name="description" content="Uninetguide - Independent Third-Party Internet & Cable Service Assistance" />
     <meta name="author" content="Uninetguide" />
@@ -15,6 +29,14 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@Uninetguide" />
+
+    <!-- ─── Anti-Iframe (JS fallback for browsers that ignore headers/meta) ── -->
+    <script>
+      if (window.self !== window.top) {
+        window.top.location.replace(window.self.location.href);
+      }
+    </script>
+    <!-- ─────────────────────────────────────────────────────────────────────── -->
   </head>
 
   <body>

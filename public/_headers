@@ -1,0 +1,27 @@
+/*
+  # Enforce HTTPS via HSTS (1 year, include subdomains, preload-ready)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Prevent clickjacking / iframe embedding
+  X-Frame-Options: DENY
+
+  # Stop MIME-type sniffing attacks
+  X-Content-Type-Options: nosniff
+
+  # Legacy XSS filter (IE/older browsers)
+  X-XSS-Protection: 1; mode=block
+
+  # Control referrer information sent with requests
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Restrict browser features (camera, mic, geolocation, payment)
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+
+  # Cross-Origin isolation
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-site
+
+  # Content Security Policy
+  # - script-src: self + inline needed for React/Vite production bundle
+  # - frame-ancestors 'none': blocks ALL iframe embedding (strongest clickjack protection)
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests

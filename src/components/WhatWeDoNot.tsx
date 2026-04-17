@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { TFN_DISPLAY, TFN_LINK } from "@/lib/constants";
 
 const items = [
-  { icon: XCircle, title: "Not an ISP", desc: "We are not an Internet Service Provider and do not deliver internet or cable service." },
-  { icon: ShieldX, title: "Not Official Support", desc: "We do not provide official customer support for any brand, provider, or telecom company." },
-  { icon: Ban, title: "No Affiliation", desc: "We are not affiliated, authorized, or endorsed by any telecom, cable, or internet company." },
-  { icon: AlertTriangle, title: "No Selling Plans", desc: "We do not sell internet, cable, or streaming subscriptions or plans of any kind." },
-  { icon: DollarSign, title: "Separate Service Fees", desc: "Our service fees are independent and separate from any charges by your service provider." },
-  { icon: Info, title: "Informational Only", desc: "We do not provide guaranteed technical fixes. All mentions of providers are strictly informational." },
+  { icon: XCircle, title: "Not an ISP", desc: "We do not deliver internet, cable, or satellite service. For active service, contact your provider directly — Xfinity, Spectrum, AT&T, HughesNet, or DirecTV." },
+  { icon: ShieldX, title: "Not Official Support", desc: "We are not an official support channel for any provider. Our guidance is independent and not a substitute for contacting your provider's support team." },
+  { icon: Ban, title: "No Provider Affiliation", desc: "We are not affiliated with, authorized by, or endorsed by Xfinity, Spectrum, HughesNet, AT&T, DirecTV, or any other telecom or cable company." },
+  { icon: AlertTriangle, title: "No Plan Sales", desc: "We do not sell or sign you up for internet, cable, or streaming plans. We help you understand your options — the choice and signup are entirely yours." },
+  { icon: DollarSign, title: "Separate Service Fees", desc: "Our guidance service fees are completely separate from any charges billed by your internet or cable provider." },
+  { icon: Info, title: "Guidance Only", desc: "We provide information and guidance, not guaranteed technical fixes. All provider names and services mentioned are for reference purposes only." },
 ];
 
 const WhatWeDoNot = () => {
@@ -27,7 +27,7 @@ const WhatWeDoNot = () => {
             What We Do <span className="text-destructive">NOT</span> Do
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            To avoid confusion, please note the following about our services:
+            We're here to guide you — not to replace your provider. Here's what falls outside our scope:
           </p>
         </motion.div>
 
@@ -61,7 +61,7 @@ const WhatWeDoNot = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           viewport={{ once: true }}
         >
-          <p className="text-muted-foreground mb-6">Have questions? Our independent team is happy to clarify.</p>
+          <p className="text-muted-foreground mb-6">Still have questions about what we cover? Our team is happy to clarify before you call.</p>
           <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold rounded-full px-10 h-14 text-base">
             <a href={TFN_LINK}>
               <Phone className="w-5 h-5 mr-2" />
