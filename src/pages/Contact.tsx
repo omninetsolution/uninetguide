@@ -90,7 +90,7 @@ const Contact = () => {
     const _safePayload = {
       name: sanitizeInput(form.name, 100),
       email: form.email.trim().toLowerCase().slice(0, 254),
-      phone: form.phone.replace(/[^\d\s\+\-\(\)]/g, "").slice(0, 20),
+      phone: form.phone.replace(/[^\d\s+()-]/g, "").slice(0, 20),
       message: sanitizeInput(form.message, 2000),
     };
 

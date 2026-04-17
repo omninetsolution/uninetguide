@@ -19,7 +19,7 @@ const BLOCKED_DOMAINS = [
 
 /** Validate email format and block known disposable-email domains. */
 export function validateEmail(email: string): { valid: boolean; error?: string } {
-  const re = /^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/;
+  const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   if (!re.test(email)) {
     return { valid: false, error: "Please enter a valid email address." };
   }
